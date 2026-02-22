@@ -10,7 +10,7 @@ RUN \
         nginx \
         pwgen \
         vlc \
-    && sed -i 's/geteuid/getppid/' /usr/bin/vlc13 \
+    && sed -i 's/geteuid/getppid/' /usr/bin/vlc \
     && sed -i '197s#.*#    dir = dir == undefined ? "file:///media" : dir;#' /usr/share/vlc/lua/http/js/controllers.js
         
 WORKDIR /
