@@ -11,7 +11,7 @@ arch:
   - aarch64
 audio: true
 discovery:
-  - vlc_telnet
+  - vlc_telnet13
 homeassistant: 2021.3.0.dev20210216
 image: homeassistant/{arch}-addon-vlc
 ingress: true
