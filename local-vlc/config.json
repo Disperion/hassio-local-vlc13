@@ -1,9 +1,9 @@
 {
-    "name": "Local VLC",
+    "name": "Local VLC 13",
     "version": "18",
-    "slug": "local_vlc",
-    "description": "Play multimedia locally using VLC player",
-    "url": "https://github.com/rodripf/hassio-local-vlc",    
+    "slug": "local_vlc_13",
+    "description": "Play VLC player",
+    "url": "https://github.com/Disperion/hassio-local-vlc13",    
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "startup": "application",
     "boot": "auto",
@@ -17,9 +17,9 @@
     },
     "audio": true,
     "ports":{
-        "9892/tcp":9892,
-        "4212/tcp":4212
+        "9893/tcp":9893,
+        "4213/tcp":4213
     },
-    "webui": "http://[HOST]:[PORT:9892]/",
+    "webui": "http://[HOST]:[PORT:9893]/",
     "map": ["share:ro", "ssl"]
   }
