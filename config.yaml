@@ -1,9 +1,9 @@
 ---
 version: 0.3.1
-slug: vlc
-name: VLC
-description: Turn your device into a Media Player with VLC
-url: https://github.com/home-assistant/addons/tree/master/vlc
+slug: vlc_13
+name: VLC13
+description: Media Player with VLC
+url: https://github.com/Disperion/hassio-local-vlc13
 arch:
   - amd64
   - i386
